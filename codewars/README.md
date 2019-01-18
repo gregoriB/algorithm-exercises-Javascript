@@ -1,0 +1,1 @@
+You can check out my codesignal profile here: https://www.codewars.com/users/gregoriB
