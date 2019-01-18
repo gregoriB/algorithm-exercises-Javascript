@@ -3,7 +3,7 @@ String.prototype.toJadenCase = function () {
       newStr  = "";
   for (let char of this) {
     newStr += isSpace ? char.toUpperCase() : char;
-    isSpace = char === " " ? true : false;
+    isSpace = char === " ";
   }
   
   return newStr;
