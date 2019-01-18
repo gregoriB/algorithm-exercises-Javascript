@@ -1,6 +1,6 @@
 function isCryptSolution(crypt, solution) {
-  let cryptSolution = {}
-  let decrypted = [];
+  const cryptSolution = {}
+  const decrypted = [];
   solution.forEach(arr => cryptSolution[arr[0]] = arr);
   crypt.forEach(string => {
       let tempNum = "";
